@@ -1,0 +1,137 @@
+.why-2 {
+    background-color: white;
+}
+
+.why-2 img {
+    width: 20%;
+}
+
+.why-2 h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.6rem;
+    color: rgba(0, 0, 0, 0.64);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 6rem 0 6rem;
+}
+
+.why-2 h1 span {
+    color: #0094FF;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 6rem;
+    grid-template-areas: "child1 child2" "child3 child4";
+    padding: 0 6rem;
+}
+
+.grid-container h2 {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 204%;
+    letter-spacing: 0.06em;
+}
+
+.child1 {
+    grid-area: child1;
+    height: 38rem;
+    background: white;
+    background: url(/Group\ 5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #0094FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 4rem;
+    transition: 1s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.child1:hover {
+    transform: translateY(-20px);
+    border-radius: 25px;
+    color: #0094FF;
+}
+
+.child2:hover {
+    transform: translateY(-20px);
+    border-radius: 25px;
+    color: #0094FF;
+}
+
+.child3:hover {
+    transform: translateY(-20px);
+    border-radius: 25px;
+    color: #0094FF;
+}
+
+.child4:hover {
+    transform: translateY(-20px);
+    border-radius: 25px;
+    color: #0094FF;
+}
+
+.child2 {
+    transition: 1s;
+    background: url(/Group\ 5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: child2;
+    height: 38rem;
+    border: 3px solid #0094FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.child3 {
+    transition: 1s;
+    grid-area: child3;
+    height: 35rem;
+    background: white;
+    background: url(/Group\ 5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #0094FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.child4 {
+    transition: 1s;
+    grid-area: child4;
+    height: 35rem;
+    background: white;
+    background: url(/Group\ 5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #0094FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrap {
+    display: flex;
+}
+
+.wrap h4 {
+    font-size: 4.5rem;
+    color: #0094FF;
+    margin: auto;
+}

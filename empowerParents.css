@@ -1,0 +1,31 @@
+.empowerparents {
+    background-color: white;
+}
+
+.empowerparents h1 {
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 3.3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.ediv1 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.ediv1 img {
+    width: 80%;
+}
+
+.ediv1 h2 {
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 127.69%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.64);
+}

@@ -1,0 +1,73 @@
+.whyWeExist {
+    background-color: white;
+}
+
+.whyWeExist h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.64);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem 0;
+}
+
+.whyWeExist h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: rgba(78, 147, 253, 0.87);
+    padding-bottom: 3rem;
+}
+
+.whydiv1 {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whydiv2 {
+    width: 50%;
+}
+
+.whydiv3 {
+    transition: 1.2s;
+}
+
+.whydiv3:hover {
+    transform: translateY(-60px);
+}
+
+.whydiv3 img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.whydiv2 h3 {
+    font-weight: 500;
+    font-size: 3.2rem;
+    color: #77ABFA;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.whydiv2 p {
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 204%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.whydiv1-2 {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 6rem;
+}

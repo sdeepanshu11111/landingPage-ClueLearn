@@ -1,0 +1,63 @@
+.appscreens {
+    background: white;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.appscreens h1 {
+    font-size: 4.2rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #0094FF;
+}
+
+.appscreens h2 {
+    font-size: 2.2rem;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 65%);
+    text-align: center;
+    font-weight: 400;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.app1 {
+    width: 22%;
+}
+
+.app1 img {
+    transition: 1s;
+    display: block;
+    margin: auto;
+}
+
+.app1 img:hover {
+    transform: scale(1.1);
+}
+
+.appscreenwraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appscreenwraper2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app2 {
+    width: 25%;
+}
+
+.app2 img {
+    transition: 1s;
+    display: block;
+    margin: auto;
+}
+
+.app2 img:hover {
+    transform: scale(1.1);
+}

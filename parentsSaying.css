@@ -1,0 +1,102 @@
+.parentsSaying {
+    background-color: white;
+}
+
+.parentsSaying h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    color: #0094FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: white
+}
+
+.sdiv1 {
+    display: flex;
+    width: 286px;
+    background: #0094FF;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.sdiv3 {
+    padding-left: 1rem;
+}
+
+.sdiv1 h5 {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 88.69%;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+sdiv1 img {
+    display: block;
+}
+
+.eclipse {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+.sayingWrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sdiv1 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 148.69%;
+    /* or 21px */
+    align-items: center;
+    letter-spacing: 0.07em;
+    color: white;
+}
+
+.eclipse h2 {
+    position: absolute;
+    color: #0094FF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.parentsSaying h3 {
+    font-size: 3rem;
+    /* or 55px */
+    text-align: center;
+    letter-spacing: 0.075em;
+    color: #656565;
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
+    font-weight: 400;
+}
+
+.parentsSaying button {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 74px;
+    background: #0094FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 61px;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+    outline: none;
+    font-size: 3rem;
+    color: white;
+}
