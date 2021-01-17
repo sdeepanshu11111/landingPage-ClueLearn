@@ -1,6 +1,6 @@
 .hero {
     height: 82vh;
-    background: url(/res/Frame\ 3\ \(4\).svg);
+    background: url(res/Frame\ 3\ \(4\).svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

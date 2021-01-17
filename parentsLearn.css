@@ -5,10 +5,14 @@
 .parentsLearn h1 {
     font-size: 3.2rem;
     text-align: center;
-    padding-top: 8rem;
-    padding-bottom: 4rem;
-    color: #0094FF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 400;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
 }
 
 .pwraper {

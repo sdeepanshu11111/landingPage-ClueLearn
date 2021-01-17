@@ -1,14 +1,15 @@
 footer {
-    background-color: #0094FF;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
     height: 300px;
     display: flex;
     justify-content: space-around;
 }
 
 footer h1 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #FFFFFF;
     padding-left: 2rem;
+    font-weight: 400;
 }
 
 footer h2 {

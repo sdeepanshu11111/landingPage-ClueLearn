@@ -5,11 +5,15 @@
 .parentsSaying h1 {
     font-size: 3.2rem;
     text-align: center;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     color: #0094FF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: white
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
 }
 
 .sdiv1 {
@@ -25,6 +29,10 @@
 
 .sdiv3 {
     padding-left: 1rem;
+}
+
+.sdiv3 img {
+    width: 50%;
 }
 
 .sdiv1 h5 {
@@ -49,7 +57,7 @@ sdiv1 img {
 
 .sayingWrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .sdiv1 p {
@@ -91,12 +99,22 @@ sdiv1 img {
     margin: auto;
     width: 250px;
     height: 74px;
-    background: #0094FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 61px;
     margin-bottom: 8rem;
     margin-top: 4rem;
     outline: none;
     font-size: 3rem;
+    font-weight: 500;
     color: white;
+    border: 2px solid #0094FF;
+    transition: 0.8s;
+    cursor: pointer;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+}
+
+.parentsSaying button:hover {
+    transition: 0.8s;
+    color: white;
+    background: #0094FF;
 }

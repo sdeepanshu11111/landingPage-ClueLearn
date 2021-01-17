@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 56.5%;
+    font-size: 46.5%;
     font-family: 'Roboto', sans-serif;
     background-color: white;
     text-transform: capitalize;
@@ -14,7 +14,7 @@ html {
 
 .header {
     height: 12vh;
-    background-color: rgba(78, 147, 253, 75%);
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
     display: flex;
     padding-left: 6rem;
     padding-right: 6rem;
@@ -55,7 +55,6 @@ html {
     height: 6vh;
     padding-left: 6rem;
     padding-right: 6rem;
-    background-color: white;
     position: sticky;
 }
 
@@ -83,7 +82,6 @@ html {
 
 .nav ul li a:hover {
     color: #77ABFA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nav ul li a:active {

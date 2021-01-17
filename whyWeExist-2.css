@@ -9,14 +9,18 @@
 .why-2 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 3.6rem;
-    color: rgba(0, 0, 0, 0.64);
+    font-size: 3.2rem;
+    color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 6rem 0 6rem;
+    padding: 2rem 0 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: 400;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
 }
 
 .why-2 h1 span {
-    color: #0094FF;
+    color: white;
 }
 
 .grid-container {
@@ -39,7 +43,6 @@
     grid-area: child1;
     height: 38rem;
     background: white;
-    background: url(/Group\ 5.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,46 +53,58 @@
     padding: 0 4rem;
     transition: 1s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .child1:hover {
     transform: translateY(-20px);
     border-radius: 25px;
-    color: #0094FF;
+    color: #F2709C;
 }
 
 .child2:hover {
     transform: translateY(-20px);
     border-radius: 25px;
-    color: #0094FF;
+    color: #F2709C;
 }
 
 .child3:hover {
     transform: translateY(-20px);
     border-radius: 25px;
-    color: #0094FF;
+    color: #F2709C;
 }
 
 .child4:hover {
     transform: translateY(-20px);
     border-radius: 25px;
-    color: #0094FF;
+    color: #F2709C;
 }
 
 .child2 {
     transition: 1s;
-    background: url(/Group\ 5.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     grid-area: child2;
     height: 38rem;
-    border: 3px solid #0094FF;
+    border: 3px solid #F2709C;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 4rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.child2,
+.child3 {
+    border: 3px solid #F2709C;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.child1,
+.child4 {
+    border: 3px solid #0094FF;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .child3 {
@@ -97,11 +112,9 @@
     grid-area: child3;
     height: 35rem;
     background: white;
-    background: url(/Group\ 5.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 3px solid #0094FF;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -114,11 +127,9 @@
     grid-area: child4;
     height: 35rem;
     background: white;
-    background: url(/Group\ 5.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 3px solid #0094FF;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -131,7 +142,8 @@
 }
 
 .wrap h4 {
-    font-size: 4.5rem;
-    color: #0094FF;
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.6);
     margin: auto;
+    font-weight: 400;
 }
